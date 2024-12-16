@@ -1,0 +1,154 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  flex-wrap: wrap;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  border: solid rgb(169, 163, 163) 10px;
+  border-radius: 1rem;
+  flex-wrap: nowrap;
+}
+
+li {
+  list-style-type: none;
+}
+
+.navlist {
+  display: flex;
+  justify-content: space-between;
+}
+.img1 {
+  width: 100px;
+  height: 100px;
+  padding-left: 20px;
+}
+.header {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.sign1 {
+  margin-top: 1rem;
+  font-size: 20px;
+  margin-right: 1rem;
+}
+.sign2 {
+  height: 20px;
+  width: 75px;
+  margin-top: 1rem;
+  padding-top: 2px;
+  font-size: 1rem;
+  border: solid 1px grey;
+  border-radius: 10px;
+  text-align: center;
+  margin-right: 1rem;
+  height: 1.5rem;
+}
+
+h1 {
+  font-size: 65px;
+  text-align: center;
+}
+p {
+  font-size: 25px;
+  text-align: center;
+}
+.box {
+  margin-top: 6%;
+  margin-left: 6rem;
+  text-align: center;
+  display: flex;
+  width: 70%;
+  border: 2px solid rgb(39, 38, 38);
+  border-radius: 5px;
+}
+
+#icon {
+  padding-left: 150px;
+  width: 50px;
+  height: 50px;
+}
+.google {
+  padding-left: 5px;
+  padding-top: 1rem;
+}
+span {
+  display: flex;
+  padding-right: 90px;
+  width: 25%;
+  margin-left: 13rem;
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+  border: 1.5px solid grey;
+}
+.or {
+  position: relative;
+  top: 37px;
+  left: -2px;
+}
+#email {
+  border: 1px solid #000;
+  border-radius: 5px;
+  width: 70%;
+  height: 40px;
+}
+#password {
+  border: 1px solid #000;
+  border-radius: 5px;
+  width: 70%;
+  height: 40px;
+}
+
+.maincontent {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+  margin-left: 5rem;
+  padding-left: 5rem;
+}
+#forgetpass {
+  padding-left: 26rem;
+}
+.loginbutton {
+  margin-top: 2rem;
+}
+#login {
+  margin-left: 13rem;
+  font-size: 17px;
+  color: aliceblue;
+  border: solid black 1px;
+  border-radius: 5px;
+  background: #000;
+  width: 40%;
+  height: 40px;
+}
+#signup {
+  margin-top: 0.5rem;
+  font-size: 15px;
+}
+footer {
+  display: flex;
+  margin-top: 6rem;
+  justify-content: center;
+}
+.leftbox {
+  border: solid white 2px;
+  border-top-left-radius: 5px;
+  width: 50%;
+  height: 100%;
+}
+.rightbox {
+  border: solid white 2px;
+  border-top-right-radius: 10px;
+  width: 50%;
+  height: 100%;
+}
+img {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 50vw;
+  height: 100vh;
+}
